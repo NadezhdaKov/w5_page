@@ -1,0 +1,14 @@
+header,
+main,
+article,
+aside,
+footer {
+    border: 1px solid red;
+}
+
+.header {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: content;
+}
